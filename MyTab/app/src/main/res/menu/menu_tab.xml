@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/tab1"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_media_play"
+        android:showAsAction="ifRoom"
+        android:title="동영상" />
+
+    <item
+        android:id="@+id/tab2"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_gallery"
+        android:showAsAction="ifRoom"
+        android:title="사진" />
+
+    <item
+        android:id="@+id/tab3"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_popup_reminder"
+        android:showAsAction="ifRoom"
+        android:title="알림" />
+</menu>
